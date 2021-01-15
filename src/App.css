@@ -1,0 +1,179 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {
+    width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: lightblue;  
+        border-radius: 15px ;  
+        margin-top: 200px;
+}
+
+
+
+/* Login page Css */
+.signin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  input[type=text], input[type=password] {
+    width: 55%;
+    margin-top: 20px;
+    margin-left: 10px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+  }
+ button:hover {
+    opacity: 0.8;
+  }
+
+  label{  
+    color: darkgreen;  
+    font-size: 17px;  
+} 
+  
+
+
+/* Css for Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .deletebtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .addbtn{
+      width: auto;
+      padding: 10px 18px;
+      background-color: green;
+      margin-top: 20px;
+  }
+
+  /* Navigation Bar css */
+  ul img{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    height: 50px;
+    border-radius: 50%;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  /* Home page */
+
+  .center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 15%;
+  
+    
+  }
+
+  .center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  
+  
+  margin: 20px auto;
+  }
+  .custom-select select {
+    width: 20%;
+    content: "";
+    top: 14px;
+    right: 10px;
+    background-color: lightgray;
+    color: darkblue;
+    border: 6px solid transparent
+  }
+
+  /* User page Css */
+.logoutbtn{
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.user{
+    width: 50%;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: lightblue;  
+        border-radius: 15px ;  
+        margin-top: 200px;
+}
+  
+.user label {
+    font-size: 30px;
+}
+
+.btn{
+    background-color: lightseagreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
