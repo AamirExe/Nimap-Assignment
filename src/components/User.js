@@ -4,8 +4,11 @@ import Navbar from './Navbar'
 
 
 
-const User = ({ user, logout, history, changePassword }) => {
+const User = ({ user, logout, history, changePassword, isAuthenticated }) => {
 
+    if (!isAuthenticated) {
+        history.push('/signin')
+    }
     const [state, toggleState] = useState(true)
     const [newPassword, setNewPassword] = useState("")
     const onClick = e => {

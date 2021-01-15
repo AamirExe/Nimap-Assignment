@@ -30,7 +30,7 @@ function App() {
         <Route exact path='/signin'><Signin createUser={CreateUser} changeAuthentication={changeAuthentication} history={useHistory} /> </Route>
         <Route exact path='/'> <Home history={useHistory} isAuthenticated={isAuthenticated} /></Route>
         <Route exact path='/task'> <Task isAuthenticated={isAuthenticated} history={useHistory} /></Route>
-        <Route exact path='/user'><User user={user} logout={changeAuthentication} history={useHistory} changePassword={CreateUser} /> </Route>
+        <Route exact path='/user'><User user={user} logout={changeAuthentication} history={useHistory} changePassword={CreateUser} isAuthenticated={isAuthenticated} /> </Route>
       </Switch>
     </Router>
   </Fragment>
